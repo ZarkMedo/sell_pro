@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: sell
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://192.168.1.49:3306/sell?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+
+# 使用logback-spring.xml配置文件
+#logging:
+#  path: ./logs
+#  pattern:
+#    console: "%d-%msg%n"
